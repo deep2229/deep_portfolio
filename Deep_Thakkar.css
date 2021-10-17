@@ -1,0 +1,137 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+@keyframes deep1{
+
+ 0%{
+transform: translate(50px);
+transform: scale(1.2);
+ }
+ 100%{
+     transform: translate(-50px);
+     transform: scale(1.5)
+ }
+}
+.deep{
+    animation: deep1 2s linear 2s infinite alternate ; 
+}
+
+.header{
+    /* background: linear-gradient(0deg, rgba(9,103,102,1) 0%, rgba(9,7,2,1) 100%) ; */
+    /* background-size: 100% 100%;
+    text-shadow: 1px 0px white,0px 1px white,-1px 0px white,0px -1px white ; */
+  
+       padding-left: 20px;
+       padding-top: 15px; 
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       margin-top: 0%;
+      
+}
+.curve{
+    width: 100%;
+}
+.head1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+font-size: 3em;
+color: white;
+width: 100%;
+text-shadow: 1px 0px #ff5500,0px 1px #ff5500,-1px 0px #ff5500,0px -1px #ff5500 ;
+}
+.head2{
+    height: 30vh;
+    margin-bottom: 50px;
+}
+.right-margin{
+    margin-right: 10px ;
+}
+.left-margin{
+    margin-left: 10px;
+}
+.content{    
+    
+    background: linear-gradient(0deg,  rgba(9,7,2,0.7) 0%, rgba(9,7,2,0.7) 100%),url(5.jpg); 
+    background-size: cover;
+    color: white;
+    padding: 20px;
+}
+.image{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    animation: name 5s width infinite;
+}
+.image:hover{
+    transform: scale(1.05);
+    border: 2px solid #ff5500;
+}
+.main-font{
+ font-size: 4vh;  
+ font-weight: 800;
+ text-shadow: 1px 0px black,0px 1px black,-1px 0px black,0px -1px black ; 
+}
+.inside-font{
+    font-size: 3vh;
+}
+.Exps{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    
+}
+.Exp-box{
+    border: 1px solid white;
+    text-align: center;
+    border-radius: 10px;
+}
+ul li {
+    list-style-type: none;
+}
+.Exp-box:hover{
+ transform: scale(1.05);
+ box-shadow: 5px 5px 5px black;
+ color: black;
+ background-color: #ff5500;
+ opacity: 0.7;
+ cursor: context-menu;
+}
+.skill li i{
+    border: 2px solid white;
+    text-align: center;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+   font-size: 30px;
+   display: flex;
+   flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.skill li {    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.skill-bottom{
+    margin-top: 20px;
+}
+.skill li i:hover{
+    transform: scale(1.1);
+    background-color:  #ff5500;
+    box-shadow: 5px 5px 5px black;
+    color: black;
+    font-weight: bolder;
+}
